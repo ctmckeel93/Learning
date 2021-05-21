@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-success">User Form</h1>
+        <form action="/result" method="POST">
+            <div class="col-sm-6">
+                Your Name: <input type="text" name="name" class="form-control">
+                Dojo Location: <input type="text" name="dojo" class="form-control">
+                Favorite Language: <select class="form-control" name="language">
+                    {% for lang in languages %}
+                        <option value="{{lang}}">{{lang}}</option>
+                    {% endfor %}
+                </select>
+                What is your preferred Python Framework?:
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value="Flask" name="framework">
+                    <label class="form-check-label" for="django">Django</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value="Flask" name="framework">
+                    <label class="form-check-label" for="flask">Flask</label>
+                </div>
+                What CSS Frameworks do you like to use?:(Check all that apply)
+                <div class="form-check">
+                    <input type="checkbox" name="css" value="Sass" class="form-check-input">
+                    <label for="sass" class="form-check-label">Sass</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="css" value="Bootstrap" class="form-check-input">
+                    <label for="bootstrap" class="form-check-label">Bootstrap</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="css" value="Materialize" class="form-check-input">
+                    <label for="materialize" class="form-check-label">Materialize</label>
+                </div>
+
+                </div>
+                Comment:(optional)
+                <textarea name="comment" class="form-control" cols="30" rows="10"></textarea>
+                <div class="mt-1">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
