@@ -10,10 +10,11 @@ public class ProjectTest {
         // System.out.println(project2.getName());
         // System.out.println(project2.elevatorPitch());
 
-        portfolio.AddToPortfolio(project2);
-        portfolio.AddToPortfolio(project1);
+        portfolio.addToPortfolio(project2);
+        portfolio.addToPortfolio(project1);
         System.out.println(portfolio.getPortfolio());
         portfolio.showPortfolio();
+        System.out.println(portfolio.getPortfolioCost());
 
     }
 }

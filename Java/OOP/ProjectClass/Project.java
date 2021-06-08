@@ -1,34 +1,57 @@
+import java.util.*;
+
+
+
 public class Project {
     private String name;
     private String description;
-    private double initialCost = 0;
-    private static String defaultName = "Default NAME";
-    private static String defaultDesc = "DEfault DesC";
-    private static double defaultCost = 50;
+    private double initialCost;
 
-    public String getName() { return name; }
-    public String getDescription() { return description; }
-    public double getCost() { return initialCost; }
-
-    public void setName(String name) { this.name = name; }
-    public void setDescription(String description) { this.description = description; }
-    public String ElevatorPitch() {
-        return String.format("%s (%.2f) %s", name, initialCost, description);
+    Project() {
+        this("Empty Project", "No description for this project yet", 50);
     }
 
-    public Project(String name, String description, double cost) {
+    Project(String name) {
         this.name = name;
+        this.initialCost = 50;
+        this.description = "No description for this project yet";
+    }
+
+    Project(String name, String desc, double cost){
+        this.name = name;
+        this.description = desc;
         this.initialCost = cost;
-        this.description = description;
     }
-    public Project(String name) {
-        this.name = name;
-        this.description = defaultDesc;
-        this.initialCost = defaultCost;
+
+
+    // getters & setters   
+    public String getName() {
+            return this.name;
     }
-    public Project() {
-        name = defaultName;
-        description = defaultDesc;
-        initialCost = defaultCost;
+
+    public void setName(String rename) {
+        this.name = rename;
     }
+
+    public String getInfo() {
+        return this.description;
+    }
+
+    public void setInfo(String newInfo) {
+        this.description = newInfo;
+    }
+
+    public double getCost() {
+        return this.initialCost;
+    }
+
+    public void setCost(double newCost) {
+        this.initialCost = newCost;
+    }
+    //********************************/
+
+    public String elevatorPitch() {
+        return this.name + String.format("($%.2f)", this.initialCost) + ": " + this.description;
+    }
+
 }
