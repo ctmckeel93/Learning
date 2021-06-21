@@ -1,0 +1,12 @@
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/bin/Debug/netcoreapp3.1/Fundamentals.deps.json
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/bin/Debug/netcoreapp3.1/Fundamentals.runtimeconfig.json
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/bin/Debug/netcoreapp3.1/Fundamentals.runtimeconfig.dev.json
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/bin/Debug/netcoreapp3.1/Fundamentals.dll
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/bin/Debug/netcoreapp3.1/Fundamentals.pdb
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.csprojAssemblyReference.cache
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.AssemblyInfoInputs.cache
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.AssemblyInfo.cs
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.csproj.CoreCompileInputs.cache
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.dll
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.pdb
+/Users/coreymckeel/Desktop/Learning/Learning/CSharp/Fundamentals/obj/Debug/netcoreapp3.1/Fundamentals.genruntimeconfig.cache
