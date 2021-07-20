@@ -10,6 +10,7 @@ public class HashMapFun {
         trackList.put("Nowhere Generation", "We are the nowhere generation! We are the kids that noone wants. We are a credible threat to the rules you set...");
         trackList.put("Numbers", "They have the power! But we have the numbers now. It's all just a constant illlusion of control...");
         trackList.put("Sudden Urge", "I get a sudden urge, to watch this whole town burn. Light up the whole damn sky, like the fourth of July...");
+        trackList.put("Midnight Hands", "Whatever path you take, and wherever you might go. Whenever you decide to leave I will follow...I will follow");
 
         String lyrics = trackList.get("Numbers");
         System.out.println(lyrics);
