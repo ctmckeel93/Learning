@@ -1,10 +1,11 @@
-
-<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%><%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>Counter</title>
 		<!-- for Bootstrap CSS -->
 		<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 		<!-- YOUR own local CSS -->
@@ -14,9 +15,6 @@
 		<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="container text-center">
-			<h1>Welcome to the Time Display Assignment!</h1>
-			<a href="/date">View Date</a> | <a href="/time">View Time</a>
-		</div>
+		<h1>Counter: <c:out value="${visit_count}"></c:out></h1>
 	</body>
 </html>
