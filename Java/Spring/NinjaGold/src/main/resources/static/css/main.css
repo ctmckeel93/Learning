@@ -1,0 +1,41 @@
+.main {
+	border: 3px solid black;
+	width: 95%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.farm {
+	border: 2px solid green;
+	height: 250px;
+	width: 250px;
+}
+
+.cave {
+	border: 2px solid grey;
+	height: 250px;
+	width: 250px;
+}
+
+.house {
+	border: 2px solid blue;
+	height: 250px;
+	width: 250px;
+}
+
+.casino {
+	border: 2px solid purple;
+	height: 250px;
+	width: 250px;
+}
+
+.action-log {
+	border: 3px solid red;
+	align-self: flex-end;
+	width: 95%;
+	padding: 2px;
+	min-height: 100px;
+	margin-top: 10px;
+}
