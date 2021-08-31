@@ -38,7 +38,7 @@ private UserDetailsService userDetailsService;
 				.anyRequest().authenticated()
 				.and()
 			.formLogin()
-				.loginPage("/login")
+				.loginPage("/")
 				.usernameParameter("email")
 				.permitAll()
 				.and()
