@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25vh auto;
+    height: 300px;
+    width: 500px;
+    background-color: black;
+}
+
+p { 
+    text-align: center;
+    color: silver;
+    font-size: 20pt;
+}
+
+button {
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    color: silver !important;
+}
+
+input {
+    width: 200px;
+    margin-left: 25%;
+}
