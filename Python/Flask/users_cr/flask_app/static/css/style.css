@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { 
+    width: 40%;
+    margin: 5% auto;
+    padding: 5%;
+    background-color:rgb(65, 4, 4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 { text-align:center;}
