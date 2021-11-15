@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"expanded":true,"name":"World Map","order":1,"parentId":0,"scrollX":1500,"scrollY":604.2857142857142},
+{"id":2,"expanded":false,"name":"Snow Village","order":2,"parentId":1,"scrollX":1500,"scrollY":604.2857142857142},
+{"id":3,"expanded":false,"name":"Port Town","order":3,"parentId":1,"scrollX":0,"scrollY":0}
+]
