@@ -1,0 +1,16 @@
+[
+null,
+{"id":1,"expanded":false,"name":"Debug Room","order":1,"parentId":0,"scrollX":752.4,"scrollY":469.79999999999995},
+{"id":2,"expanded":false,"name":"Hub Town","order":2,"parentId":0,"scrollX":825.5999999999999,"scrollY":1402.2},
+{"id":3,"expanded":false,"name":"Battle Arena","order":3,"parentId":2,"scrollX":595.3333333333334,"scrollY":1229},
+{"id":4,"expanded":false,"name":"Inn","order":4,"parentId":2,"scrollX":739.3333333333334,"scrollY":527},
+{"id":5,"expanded":false,"name":"Shopping","order":5,"parentId":2,"scrollX":412.6666666666667,"scrollY":461},
+{"id":6,"expanded":false,"name":"Icon Museum","order":6,"parentId":2,"scrollX":691.3333333333334,"scrollY":691.6666666666666},
+{"id":7,"expanded":false,"name":"Plugin Library","order":7,"parentId":2,"scrollX":787.3333333333334,"scrollY":461},
+{"id":8,"expanded":true,"name":"Tileset Center","order":8,"parentId":2,"scrollX":742.8,"scrollY":634.1999999999999},
+{"id":9,"expanded":false,"name":"Cave Samples","order":9,"parentId":8,"scrollX":825.3333333333334,"scrollY":840.6666666666666},
+{"id":10,"expanded":true,"name":"World 1","order":10,"parentId":0,"scrollX":1290,"scrollY":1165.8},
+{"id":11,"expanded":false,"name":"Castle Entrance","order":12,"parentId":12,"scrollX":742.8,"scrollY":413.4},
+{"id":12,"expanded":true,"name":"Cardinal Castle","order":11,"parentId":10,"scrollX":742.8,"scrollY":413.4},
+{"id":13,"expanded":false,"name":"Castle Outside","order":13,"parentId":12,"scrollX":888,"scrollY":989.4}
+]

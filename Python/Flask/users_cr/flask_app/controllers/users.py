@@ -18,7 +18,7 @@ def add_user():
 @app.route('/create_user', methods=['POST'])
 def create_user():
     data = {
-        "fname" : request.form["fname"],
+        "first_name" : request.form["fname"],
         "lname" : request.form["lname"],
         "email" : request.form["email"],
     }

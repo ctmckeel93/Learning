@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 500px;
+    width: 800px;
+    margin: 50px auto;
+    padding: 100px;
+    flex-direction: column;
+    background-color: black;
+    font-size: 1.5em;
+    color: aquamarine;
+    border: 1px solid magenta;
+}
+
+button {
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    color: aquamarine;
+    background-color: magenta;
+}
+
+span {
+    background-color: rgba(255, 0, 255, 0.295);
+    padding: 5px 10px;
+    width: 200px;
+    text-align: center;
+}

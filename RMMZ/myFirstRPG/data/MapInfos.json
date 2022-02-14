@@ -1,6 +1,11 @@
 [
 null,
-{"id":1,"expanded":true,"name":"World Map","order":1,"parentId":0,"scrollX":1500,"scrollY":604.2857142857142},
+{"id":1,"expanded":true,"name":"World Map","order":1,"parentId":0,"scrollX":825.3333333333334,"scrollY":687.3333333333334},
 {"id":2,"expanded":false,"name":"Snow Village","order":2,"parentId":1,"scrollX":1500,"scrollY":604.2857142857142},
-{"id":3,"expanded":false,"name":"Port Town","order":3,"parentId":1,"scrollX":0,"scrollY":0}
+{"id":3,"expanded":false,"name":"Port Town","order":3,"parentId":1,"scrollX":0,"scrollY":0},
+null,
+{"id":5,"expanded":true,"name":"Cardinal Castle","order":4,"parentId":1,"scrollX":1259.3333333333333,"scrollY":850.3333333333334},
+{"id":6,"expanded":false,"name":"Castle 1F","order":5,"parentId":5,"scrollX":1012,"scrollY":1269.6666666666667},
+{"id":7,"expanded":false,"name":"Castle 2F","order":6,"parentId":5,"scrollX":412.6666666666667,"scrollY":229.66666666666666},
+{"id":8,"expanded":false,"name":"Castle 3F","order":7,"parentId":5,"scrollX":820,"scrollY":376.3333333333333}
 ]
